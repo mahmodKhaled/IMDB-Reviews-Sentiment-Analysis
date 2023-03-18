@@ -1,0 +1,6 @@
+bs4
+nltk
+fastapi
+typing
+uvicorn[standard]
+tensorflow
