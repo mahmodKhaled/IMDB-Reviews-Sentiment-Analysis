@@ -10,6 +10,16 @@ The dataset is evenly split between training and testing sets. The reviews in th
 
 The IMDB movie reviews dataset has become a standard benchmark dataset in the NLP community, and has been used to train and evaluate a variety of machine learning models for sentiment analysis and related tasks.
 
+## Model Results
+
+After training the deep learning model on the IMDB Reviews Dataset, and applying the model on the test data to perform predictions. The model achieved **87 Accuracy**
+
+There is ways to improve this performance of the model we can do like:
+
+1. Increase the size of training dataset: If possible, try to increase the size of training dataset by collecting more data or using data augmentation techniques.
+2. Use pre-trained word embeddings: Instead of training word embeddings from scratch, we can use pre-trained embeddings like GloVe or Word2Vec. This can help the model better understand the semantics of the words in the text data.
+3. Fine-tune pre-trained models: we can also try fine-tuning pre-trained models like BERT or GPT-2 on our specific task. This can be especially effective if we have limited training data.
+
 ## Instructions
 
 ### Test outside the Docker Image
