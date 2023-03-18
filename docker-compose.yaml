@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  imdb:
+    build: .
+    container_name: "imdb_movie_review"
+    ports:
+      - 8000:8000
+  python:
+    image: python:latest
